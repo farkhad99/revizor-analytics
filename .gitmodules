@@ -1,0 +1,3 @@
+[submodule "server_config"]
+	path = server_config
+	url = https://github.com/maxaquentin99/revizor-analytics.git
