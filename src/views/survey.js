@@ -17,7 +17,7 @@ class Survey extends React.Component {
             mark: n
         })
         console.log(res)
-        alert('Спасибо за ответ!)')
+        // alert('Спасибо за ответ!)')
     }
     render(){
         return (
