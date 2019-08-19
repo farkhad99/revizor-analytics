@@ -1,4 +1,5 @@
 /* eslint-disable no-loop-func */
+// import { generateProgrammingLanguageStats } from '@nivo/generators'
 import React from 'react' 
 import axios from 'axios' 
 import { ResponsivePie } from '@nivo/pie'
