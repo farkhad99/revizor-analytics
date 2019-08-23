@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assessment</title>
+    <link rel="stylesheet" href="assessment.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+</head>
+<body>
+    <section class="content_block" id="hid">
+        <div class="content_text">
+            <div class="text">Пожулуйста, оцените наш сервис.</div>
+            <br>
+            <div class="text">Iltimos, bizga baxo bering.</div>
+        </div>
+        <div class="content_emoji">
+            <div class="emoji" style="background-image: url(img/1.png);"></div>
+            <div class="emoji" style="background-image: url(img/2.png);"></div>
+            <div class="emoji" style="background-image: url(img/3.png);"></div>
+            <div class="emoji" style="background-image: url(img/4.png);"></div>
+        </div>
+    </section>
+    <section class="content_block" id="hid2">
+        <div id="show">
+            <img src="img/9.png" class="replay">
+        </div>
+        <div class="content_text">
+            <div class="text">Почему?</div>
+            <div class="text">Nima uchun?</div>
+        </div>
+        <div class="content_emoji">
+            <div class="contain_ser">
+                <div class="servise" style="background-image: url(img/5.png);"></div>
+                <figcaption class="servise_contain"> <p class="servise_text">Вкус<br>Ta'm</p></figcaption>
+            </div>
+            <div class="contain_ser">
+                <div class="servise" style="background-image: url(img/6.png);"></div>
+                <figcaption class="servise_contain servise_text"> <p class="servise_text">Обслуга <br> Xizmat ko'rsatish</p></figcaption>
+            </div>
+            <div class="contain_ser"> 
+                <div class="servise" style="background-image: url(img/7.png);"></div>
+                <figcaption class="servise_contain servise_text"> <p class="servise_text">Время ожидания <br> Kutish vaqti</p></figcaption>
+            </div>
+            <div class="contain_ser">
+                <div class="servise" style="background-image: url(img/8.png);"></div>
+                <figcaption class="servise_contain servise_text"> <p class="servise_text">Прочее<br> Boshqa</p></figcaption>
+            </div>
+        </div>
+    </section>
+    <section class="content_block" id="rev">
+        <div id="show1">
+            <img src="img/9.png" class="replay">
+        </div>
+        <div class="content_text">
+            <div class="text">Оставьте свой комментарий.</div>
+            <div class="text">Izohingizni qoldiring.</div>
+        </div>
+        <form class="content_form" method="post">
+            <div class="form_content">
+                <textarea class="content_area" name="text" placeholder="Ваш комментарий"></textarea>
+                <div class="text" style="margin-top: 20px;">Введите номер телефона</div>
+                <div class="text" style="margin-bottom: 20px;">Telefon raqamini kiriting</div>
+                <input id="phone" class="form_input" type="tel" name="tel" value autocomplete="tel" required maxlength="128" tabindex="2">
+                <div class="text_number" id="textNumber">+998</div> 
+            </div>
+            <button class="content_button" format="primary" type="submit" disabled="" tabindex="5">
+                <span>Отправить</span>
+            </button>
+        </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+    <script src="assessment.js"></script>
+</body>
+</html>
