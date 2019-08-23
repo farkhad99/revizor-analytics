@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="block">
+        <div class="content">
+            <div class="top-content">
+             <h2 class="logo_name">Join Revizor</h2>
+             <div>
+                <p class="content_text" format="dark">Already have an account?</p><a href="#" class="content_link">Log in</a>
+             </div>
+            </div>
+        </div>
+        <form class="form">
+                <div class="form_content rev wrapper">
+                    <input class="form_input" type="text" name="name" value autocomplete="name" required maxlength="32" tabindex="1" placeholder="Name">
+                </div>
+                <div class="form_content wrapper">
+                    <input class="form_input" type="email" name="email" value autocomplete="email" required maxlength="128" tabindex="2" placeholder="E-mail">
+                </div>
+                <div id="formInput" class="form_content wrapper">
+                    <input id="myInput" class="form_input" type="password" name="Password" value autocomplete="current-password" required maxlength="72" tabindex="1" placeholder="Password">
+                    <span class="eye_password" onclick="myFunction()">
+                            <i id="hide1" class="fa fa-eye"></i>
+                            <i id="hide2" class="fa fa-eye-slash"></i>
+                    </span>
+                </div>
+                <div>
+                    <!--Button Continue-->
+                    <button class="content_button button_next" format="primary" type="submit" disabled="" tabindex="5">
+                        <span>Continue</span>
+                    </button>
+                </div>
+        </form>
+    </section>
+    <script src="registration.js"></script>
+</body>
+</html>
