@@ -21,32 +21,3 @@ $(document).ready(function() {
         $('#phone').mask("(99) 999-99-99");
 
 });
-
-
-// TIMER
-
-
-// Using jQuery (but could use pure JS with cross-browser event handlers):
-// var idleSeconds = 10;
-
-// $(function(){
-//   var idleTimer;
-//   function resetTimer(){
-//     clearTimeout(idleTimer);
-//     idleTimer = setTimeout(whenUserIdle,idleSeconds*1000);
-//   }
-//   $(document.body).bind('mousemove keydown click',resetTimer); //space separated events list that we want to monitor
-//   resetTimer(); // Start the timer when the page loads
-// });
-
-// function whenUserIdle(){
-//   if(window.top==window) {
-//     // You're not in a frame, so you reload the site.
-//     window.setTimeout('location.reload()', 10000); //Reloads after 10 seconds
-//     }
-//     else {
-//         //You're inside a frame, so you stop reloading.
-//     }
-// }
-
-    
